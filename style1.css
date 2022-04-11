@@ -12,11 +12,12 @@
 
 html{
     scroll-behavior: smooth;
+    overflow: hidden;
 }
 
 body {
     font-family: "Montserrat";
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 nav .logo img {
