@@ -12,12 +12,10 @@
 
 html{
     scroll-behavior: smooth;
-    overflow: hidden;
 }
 
 body {
     font-family: "Montserrat";
-    overflow: hidden;
 }
 
 nav .logo img {
@@ -39,6 +37,7 @@ nav ul {
     list-style: none;
     width: 25%;
     justify-content: space-between;
+    
 }
 
 nav ul li a {
@@ -411,10 +410,11 @@ footer img {
 
     nav {
         z-index: 100;
+        overflow-x: hidden;
     }
 
     nav ul {
-        position: absolute;
+        position: fixed;
         right: 0;
         top: 0;
         width: 40%;
