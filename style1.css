@@ -3,6 +3,10 @@
 :root{
     --primary: #343434;
     --text: #fcfaf1;
+    --light: #dddddd;
+    --dark: #545454;
+    --title: #E6B31E;
+    --button: #3C30C4;
 }
 
 * {
@@ -16,6 +20,9 @@ html{
 
 body {
     font-family: "Montserrat";
+    height: 100vh;
+    background: var(--primary);
+    width: 100vw;
 }
 
 nav .logo img {
@@ -30,6 +37,9 @@ nav {
     justify-content: space-around;
     height: 70px;
     align-items: center;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
 }
 
 nav ul {
@@ -50,6 +60,65 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #e6b31e;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 35px;
+    height: 21px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--light);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 13px;
+    width: 14px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: var(--light);
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px var(--light);
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(14px);
+    -ms-transform: translateX(14px);
+    transform: translateX(14px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
 }
 
 /* Hamburger Menu */
@@ -112,7 +181,7 @@ nav ul li a:hover {
 
 /* Header */
 header {
-    background-color: #343434;
+    background-color: var(--primary);
     padding-bottom: 162px;
     padding-top: 130px;
 }
@@ -278,14 +347,18 @@ header {
 }
 
 .project {
-    background-color: #3e3e3e;
-    padding-top: 25px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 15px;
-    text-align: center;
-    border-radius: 15px;
-    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.2);
+        background-color: #3e3e3e;
+        padding-top: 25px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 15px;
+        text-align: center;
+        border-radius: 15px;
+        box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease-in-out;
+    }
+.project:hover{
+    scale: 1.1;
 }
 
 .project h3 {
@@ -326,7 +399,7 @@ header {
     height: 600px;
     background-image: url(img/Jumbotron\ 2.svg);
     background-position: bottom;
-    background-size: 100%;
+    background-size: 100vw;
     background-repeat: no-repeat;
 }
 
@@ -353,6 +426,14 @@ header {
     margin: 40px 30%;
     border: 1px solid #D0D0d0;
     border-radius: 13px;
+    text-decoration: none;    
+    transition: 0.4s;
+}
+.contact:hover{
+    scale: 1.05;
+    transition: 500ms;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5)
 }
 
 .contact p {
