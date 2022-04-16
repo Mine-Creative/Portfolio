@@ -98,11 +98,13 @@ body {
         opacity: 0.8;
     }
 
-
     .header {
         margin: 0 auto;
         text-align: center;
         align-items: center;
+    }
+    .judul p {
+        text-align: center;
     }
 
     .profiles {
