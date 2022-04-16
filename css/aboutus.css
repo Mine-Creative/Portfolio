@@ -1,6 +1,6 @@
 .container {
     background-color: var(--primary);
-    background-image: url(img/img2/jumbotron/wave.svg);
+    background-image: url(../img/img2/jumbotron/wave.svg);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 100%;
