@@ -1,0 +1,59 @@
+header {
+    background-color: var(--primary);
+    padding-bottom: 162px;
+    padding-top: 130px;
+}
+
+.header {
+    margin: 40px 15%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.judul h1 {
+    font-weight: 800;
+    color: var(--text);
+    font-size: 2.5em;
+    line-height: 61px;
+}
+
+.judul h1:nth-child(2) {
+    padding-bottom: 30px;
+}
+
+.judul h1 b {
+    font-weight: 800;
+    color: #e6b31e;
+}
+
+.judul p {
+    text-align: justify;
+    font-weight: 500;
+    color: var(--text);
+    font-size: 1.3em;
+    line-height: 30px;
+    padding-bottom: 60px;
+}
+
+.tombol {
+    width: 213px;
+    height: 62.65px;
+    padding: 10px;
+    border: 0 solid;
+    border-radius: 10px;
+    background-color: #4A5CFF;
+    transform: translateY(5px);
+    transition: 500ms;
+}
+.tombol a{
+    color:var(--text);
+    text-decoration:none;
+    font-size:20px;
+}
+
+.tombol:hover {
+    transform: translateY(-5px);
+    transition: 500ms;
+    cursor: pointer;
+}

@@ -1,0 +1,72 @@
+.projects {
+    background-color: var(--primary);
+    background-image: url(img/img2/Rectangle\ Black.svg), url(img/img2/Jumbotron\ Black.svg);
+    background-image: url(../img/img2/Rectangle\ Black.svg), url(../img/img2/Jumbotron\ Black.svg);
+    background-position: top, bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 250px;
+}
+
+.ourprojects {
+    margin: 0 15%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 50px;
+}
+
+.judulproject h1 {
+    padding-top: 200px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    padding-bottom: 150px;
+    color: var(--text);
+}
+
+.project .img img {
+    width: 100%;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.3);
+    border-radius: 17px;
+}
+
+.project {
+        background-color: #3e3e3e;
+        padding-top: 25px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 15px;
+        text-align: center;
+        border-radius: 15px;
+        box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease-in-out;
+        text-decoration: none;
+    }
+.project:hover{
+    scale: 1.1;
+}
+
+.project h3 {
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    cursor: pointer;
+    color: var(--text);
+}
+
+.project h4 {
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 15px;
+    cursor: pointer;
+    color: var(--text);
+}
+
+.project h5 {
+    color: var(--text);
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 25px;
+    cursor: pointer;
+}
