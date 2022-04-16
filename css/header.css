@@ -28,7 +28,7 @@ header {
 }
 
 .judul p {
-    text-align: justify;
+    text-align: center;
     font-weight: 500;
     color: var(--text);
     font-size: 1.3em;
