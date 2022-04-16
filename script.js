@@ -1,3 +1,8 @@
+window.addEventListener('load', () => {
+    const preload = document.querySelector('.preload');
+    preload.classList.add('preload-finished');
+});
+
 const menuToggle = document.querySelector('.menu-toggle input');
 const nav = document.querySelector('nav ul')
 
@@ -29,3 +34,4 @@ btn.addEventListener("click", function () {
     }
     localStorage.setItem("theme", theme);
 });
+
