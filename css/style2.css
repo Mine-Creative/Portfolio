@@ -1,0 +1,25 @@
+:root{
+    /* Note dari Luthfi : Masukkan variable warnanya kesini, biar nanti untuk ganti tema mudah */
+    --primary: #343434;
+    --text: #fcfaf1;
+    --light: #dddddd;
+    --dark: #545454;
+    --title: #E6B31E;
+    --button: #3C30C4;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Montserrat";
+    height: 100vh;
+    background: var(--primary);
+    width: 100vw;
+}
