@@ -146,3 +146,13 @@ input:checked+.slider:before {
     opacity: 0;
     transform: scale(0);
 }
+
+#progress-bar {
+    position:fixed;
+    top:0;
+    left:0;
+    width:20%;
+    height:1vh;
+    background : linear-gradient(to right, #E6B31E,#fcfaf1, #3C30C4);
+    transition: Width 0.2s ease-out;
+}
