@@ -50,6 +50,7 @@ header {
     color:var(--text);
     text-decoration:none;
     font-size:20px;
+    display: block;
 }
 
 .tombol:hover {
