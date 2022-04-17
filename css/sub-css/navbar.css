@@ -148,7 +148,7 @@ input:checked+.slider:before {
     position:fixed;
     top:0;
     left:0;
-    width:20%;
+    width:0%;
     height:1vh;
     background : linear-gradient(to right, #E6B31E,#fcfaf1, #3C30C4);
     transition: Width 0.2s ease-out;
