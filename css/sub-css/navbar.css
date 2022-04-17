@@ -1,9 +1,6 @@
 nav .logo img {
     height: 20px;
 }
-
-/* Navbar */
-
 nav {
     display: flex;
     background-color: var(--primary);
