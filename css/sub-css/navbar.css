@@ -1,9 +1,6 @@
 nav .logo img {
     height: 20px;
 }
-
-/* Navbar */
-
 nav {
     display: flex;
     background-color: var(--primary);
@@ -145,4 +142,15 @@ input:checked+.slider:before {
 .menu-toggle input:checked~span:nth-child(3) {
     opacity: 0;
     transform: scale(0);
+}
+
+#progress-bar {
+    position:fixed;
+    top:0;
+    left:0;
+    width:0%;
+    height:0.1vh;
+    background : #fcfaf1;
+    transition: Width 0.2s ease-out;
+    
 }
