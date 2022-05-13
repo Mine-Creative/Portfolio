@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import url("/css/sub-css/preload.css");
-@import url("/css/sub-css/navbar.css");
-@import url("/css/sub-css/header.css");
-@import url("/css/sub-css/aboutus.css");
-@import url("/css/sub-css/projects.css");
-@import url("/css/sub-css/contact.css");
-@import url("/css/sub-css/animation.css");
+@import url("../css/sub-css/preload.css");
+@import url("/Mine-Creative.github.io/css/sub-css/navbar.css");
+@import url("/Mine-Creative.github.io/css/sub-css/header.css");
+@import url("/Mine-Creative.github.io/css/sub-css/aboutus.css");
+@import url("/Mine-Creative.github.io/css/sub-css/projects.css");
+@import url("/Mine-Creative.github.io/css/sub-css/contact.css");
+@import url("/Mine-Creative.github.io/css/sub-css/animation.css");
 
 
-:root{
+:root {
     /* Note dari Luthfi : Masukkan variable warnanya kesini, biar nanti untuk ganti tema mudah */
     --primary: #343434;
     --text: #fcfaf1;
@@ -24,7 +24,7 @@
     padding: 0;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -105,6 +105,7 @@ body {
         text-align: center;
         align-items: center;
     }
+
     .judul p {
         text-align: center;
     }
