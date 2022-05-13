@@ -7,7 +7,7 @@
 @import url("/css/animation.css");
 
 
-:root {
+:root{
     /* Note dari Luthfi : Masukkan variable warnanya kesini, biar nanti untuk ganti tema mudah */
     --primary: #343434;
     --text: #fcfaf1;
@@ -22,7 +22,7 @@
     padding: 0;
 }
 
-html {
+html{
     scroll-behavior: smooth;
 }
 
@@ -103,10 +103,6 @@ body {
         margin: 0 auto;
         text-align: center;
         align-items: center;
-    }
-
-    .judul p {
-        text-align: center;
     }
 
     .profiles {
