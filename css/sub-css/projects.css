@@ -1,6 +1,5 @@
 .projects {
     background-color: var(--primary);
-    background-image: url("../../img/jumbotron/Rectangle\ Black.svg"), url("../../img/jumbotron/Jumbotron\ Black.svg");
     background-position: top, bottom;
     background-size: 100%;
     background-repeat: no-repeat;
