@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./img/Mine_Logo_Color.png" type="image/icon type">
     <title>MineCreative</title>
-    <link rel="stylesheet" href="../Mine-Creative.github.io/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
@@ -113,15 +113,15 @@
             <section class="profiles">
 
                 <div class="profile" data-aos="fade-right" data-aos-delay="300" data-aos-offset="300">
-                    <div class="img"><img src="./img/profile/Profile Pict L.png" alt="M. Luthfi Aiman"></div>
+                    <div class="img"><img src="./img/profile/Profile Pict L.svg" alt="M. Luthfi Aiman"></div>
                     <h3>M. Luthfi Aiman</h3>
                     <p>Web Programmer</p>
                     <p>Web Developer</p>
                 </div>
 
                 <div class="profile" data-aos="fade-up" data-aos-offset="300">
-                    <div class="img"><img src="./img/profile/Profile Pict.png" alt="Salman Riswana"></div>
-                    <h3>Salman Rizwana</h3>
+                    <div class="img"><img src="./img/profile/Profile Pict.png" alt="Salman Alfarisi R."></div>
+                    <h3>Salman Alfarisi R.</h3>
                     <p>Visual Designer</p>
                     <p>UI/UX Designer</p>
                     <p>Photo & Video Editor</p>
@@ -129,8 +129,8 @@
                 </div>
 
                 <div class="profile" data-aos="fade-left" data-aos-delay="600" data-aos-offset="300">
-                    <div class="img"><img src="./img/profile/Profile Pict H.png" alt="Helvira Audrey"></div>
-                    <h3>Helvira Audrey</h3>
+                    <div class="img"><img src="./img/profile/Profile Pict H.png" alt="Helvira Audrey D."></div>
+                    <h3>Helvira Audrey D.</h3>
                     <p>UX Expert</p>
                     <p>Data Analyst</p>
                 </div>
@@ -156,28 +156,33 @@
                 </a>
 
                 <a href="" class="project" data-aos="zoom-in-down" data-aos-delay="200">
-                    <div class="img"><img src="./img/project-icon/Microblog.png" alt="Microblog"></div>
+                    <div class="img">
+                        <img src="./img/project-icon/Microblog.png" alt="Microblog"></div>
                     <h3>Microblog</h3>
                 </a>
 
                 <a href="" class="project" data-aos="zoom-in-down" data-aos-delay="300">
-                    <div class="img"><img src="./img/project-icon/Instagram Post.png" alt="Instagram Post"></div>
+                    <div class="img">
+                        <img src="./img/project-icon/Instagram Post.png" alt="Instagram Post"></div>
                     <h3>Instagram Post</h3>
                 </a>
 
                 <a href="" class="project" data-aos="zoom-in-down" data-aos-delay="400">
-                    <div class="img"><img src="./img/project-icon/Photographer & Videographer.png"
+                    <div class="img">
+                        <img src="./img/project-icon/Photographer & Videographer.png"
                             alt="Photographer & Videographer"></div>
                     <h4>Photographer & Videographer</h4>
                 </a>
 
                 <a href="./html/photoedit.html" class="project" data-aos="zoom-in-down" data-aos-delay="500">
-                    <div class="img"><img src="./img/project-icon/Photo Editing.png" alt="Photo Editing"></div>
+                    <div class="img">
+                        <img src="./img/project-icon/Photo Editing.png" alt="Photo Editing"></div>
                     <h5>Photo Editing</h5>
                 </a>
 
                 <a href="" class="project" data-aos="zoom-in-down" data-aos-delay="600">
-                    <div class="img"><img src="./img/project-icon/Video Editing.png" alt="Video Editing"></div>
+                    <div class="img">
+                        <img src="./img/project-icon/Video Editing.png" alt="Video Editing"></div>
                     <h5>Video Editing</h5>
                 </a>
             </div>
@@ -188,35 +193,69 @@
         <!-- Contact Us -->
 
 
-        <section id="contact" class="contactus">
-
+    <section id="contact" class="contactus">
+        <div class="form-box">
             <div class="judulcontact" data-aos="fade-down" data-aos-offset="300">
-                <h1>Contact Us</h1>
-                <h1>Ways to Contact Us</h1>
-            </div>
-
-            <a href="" class="contact" data-aos="zoom-in">
-                <div class="img">
-                    <img src="./img/icon/Mail.svg">
+                    <h1>Contact Us</h1>
                 </div>
-                <p>minecreative.studio@gmail.com</p>
-            </a>
-            <a href="" class="contact" data-aos="zoom-in">
-                <div class="img">
-                    <img src="./img/icon/Phone.svg">
-                </div>
-                <p>+62 812 6981 4755</p>
-            </a>
-            <a href="" class="contact" data-aos="zoom-in">
-                <div class="img"><img src="./img/icon/Instagram.svg"></div>
-                <p>minecreative__</p>
-            </a>
-            <a href="" class="contact" data-aos="zoom-in">
-                <div class="img"><img src="./img/icon/Telegram Messenger Logo.svg"></div>
-                <p>+62 812 6981 4755</p>
-            </a>
 
-        </section>
+
+                <div class="form">
+                    <form action="index.php" method="post">
+                        <div class="grup1">
+                            <div class="form-1">
+                                <label for="nama">Full name</label>
+                                <input type="text" class="form-control" id="nama" name="nama" placeholder="Full name...">
+                            </div>
+
+                            <div class="form-2">
+                                <label for="email">Email address</label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Email address...">
+                            </div>
+                        </div>
+                        <div class="grup2">
+                            <div class="form-3">
+                                <label for="topics">Topics</label>
+                                <select name="topics" id="topics">
+                                    <option value="web">Design Web</option>
+                                    <option value="microblog">Microblog</option>
+                                    <option value="igpost">Instagram Post</option>
+                                    <option value="fg&vg">Photographer & Videographer</option>
+                                    <option value="editphoto">Photo Editing</option>
+                                    <option value="editvideo">Video Editing</option>
+                                </select>
+                            </div>
+
+                            <div class="form-4">
+                                <label for="number">Phone number</label>
+                                <input type="text" class="form-control" id="number" name="number" placeholder="Phone number...">
+                            </div>
+                        </div>
+
+                        <div class="grup3">
+                                <div class="form-5">
+                                    <label for="message">Message</label>
+                                    <textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Type message..." maxlength="300"></textarea>
+                                </div>
+                        </div>
+
+                        <div class="grup4">
+                            <div class="submit">
+                                <button type="submit" class="btn btn-primary" name="submit">Submit</button>
+                            </div>
+
+                            <div class="socmed">
+                                <img src="/img/icon/Mail.svg" alt="Email">
+                                <img src="/img/icon/Intagram.svg" alt="Instagram">
+                                <img src="/img/icon/Phone.svg" alt="">
+                            </div>
+                        </div>
+                        
+                    </form>
+                </div>
+        </div>
+        
+    </section>
 
         <!-- Akhir Contact Us -->
 
@@ -226,7 +265,7 @@
 
     </section>
 
-    <script src="/Mine-Creative.github.io/js/script.js"></script>
+    <script src="/js/script.js"></script>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
