@@ -15,7 +15,12 @@
     --light: #dddddd;
     --dark: #545454;
     --title: #E6B31E;
-    --button: #3C30C4;
+    --button: #4e43cf;
+    --hoverbutton: #2f2880;
+    --white: white;
+    --form: #1c1c1c;
+    --contact: #2b2b2b;
+    --project: #3e3e3e;
 }
 
 * {
@@ -32,7 +37,7 @@ body {
     font-family: "Montserrat";
     height: 100vh;
     background: var(--primary);
-    width: 100vw;
+    /* width: 100vw; */
 }
 
 /* Responsive Breakpoint */
@@ -43,23 +48,13 @@ body {
     nav ul {
         width: 50%;
     }
-}
 
-@media screen and (max-width: 992px) {
     .header {
         margin: 0 auto;
         width: 75%;
     }
-
-    .ourprojects {
-        grid-template-columns: auto;
-    }
-
-    .profiles {
-        grid-template-columns: auto;
-    }
 }
-    
+
 /* Ukuran Mobile */
 @media screen and (max-width: 600px) {
 

@@ -15,7 +15,7 @@ header {
 .judul h1 {
     font-weight: 800;
     color: var(--text);
-    font-size: 3.7em;
+    font-size: 4em;
     margin: 3vh auto;
     line-height: 61px;
 }
@@ -26,7 +26,7 @@ header {
 
 .judul h1 b {
     font-weight: 800;
-    color: #e6b31e;
+    color: var(--title);
 }
 
 .judul p {
@@ -44,21 +44,24 @@ header {
     padding: 10px;
     border: 0 solid;
     border-radius: 10px;
-    background-color: #4A5CFF;
+    background-color: var(--button);
     transform: translateY(5px);
     transition: 500ms;
     margin: auto;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.123);
+
 }
-.tombol a{
+
+.tombol a {
     text-align: center;
-    color:var(--text);
-    text-decoration:none;
-    font-size:20px;
+    color: var(--text);
+    text-decoration: none;
+    font-size: 20px;
     display: block;
 }
 
 .tombol:hover {
-    transform: translateY(-5px);
     transition: 500ms;
+    background-color: var(--hoverbutton);
     cursor: pointer;
 }
