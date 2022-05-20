@@ -1,7 +1,6 @@
 nav .logo img {
     height: 20px;
 }
-
 nav {
     display: flex;
     background-color: var(--primary);
@@ -18,7 +17,7 @@ nav ul {
     list-style: none;
     width: 25%;
     justify-content: space-between;
-
+    
 }
 
 nav ul li a {
@@ -30,9 +29,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: var(--title);
+    color: #e6b31e;
 }
-
 .switch {
     position: relative;
     display: inline-block;
@@ -65,7 +63,7 @@ nav ul li a:hover {
     width: 14px;
     left: 4px;
     bottom: 4px;
-    background-color: var(--white);
+    background-color: white;
     -webkit-transition: .4s;
     transition: .4s;
 }
@@ -147,12 +145,12 @@ input:checked+.slider:before {
 }
 
 #progress-bar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 0%;
-    height: 0.1vh;
-    background: var(--text);
+    position:fixed;
+    top:0;
+    left:0;
+    width:0%;
+    height:0.1vh;
+    background : #fcfaf1;
     transition: Width 0.2s ease-out;
-
+    
 }

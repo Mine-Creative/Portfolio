@@ -7,6 +7,7 @@
 @import url("../css/sub-css/contact.css");
 @import url("../css/sub-css/animation.css");
 
+
 :root {
     /* Note dari Luthfi : Masukkan variable warnanya kesini, biar nanti untuk ganti tema mudah */
     --primary: #343434;
@@ -15,12 +16,6 @@
     --dark: #545454;
     --title: #E6B31E;
     --button: #3C30C4;
-    --hoverbutton: #1f167b;
-    --profile: #3e3e3e;
-    --contact: #2b2b2b;
-    --form: #1c1c1c;
-    --white: white;
-    --button-text: #fcfaf1;
 }
 
 * {
@@ -67,11 +62,11 @@ body {
     }
 
     nav ul li a {
-        color: var(--text);
+        color: #f5f5f5;
     }
 
     nav ul li a:hover {
-        color: var(--tittle);
+        color: #e6b31e;
     }
 
     nav {
@@ -89,7 +84,7 @@ body {
         justify-content: space-evenly;
         flex-direction: column;
         align-items: center;
-        background-color: var(--form);
+        background-color: black;
         border-radius: 5px;
         z-index: -1;
         transform: translateX(100%);

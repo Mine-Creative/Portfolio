@@ -32,17 +32,19 @@ btn.addEventListener("click", function () {
             "dark" :
             "light";
     }
+    localStorage.setItem("theme", theme);
 });
 
 const progressBar = document.querySelector('#progress-bar');
-const section = document.querySelector('section');
+const section= document.querySelector('section');
 
 const animateProgress = () => {
     let scrollDistance = -section.getBoundingClientRect().top;
-    let progressWidth =
+    let progressWidth = 
         (scrollDistance / (section.getBoundingClientRect().height - document.documentElement.clientHeight)) * 100;
     let value = Math.floor(progressWidth);
     progressBar.style.width = value + '%';
 };
 
 window.addEventListener('scroll', animateProgress);
+
