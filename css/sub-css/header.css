@@ -15,7 +15,7 @@ header {
 .judul h1 {
     font-weight: 800;
     color: var(--text);
-    font-size: 3.7em;
+    font-size: 4em;
     margin: 3vh auto;
     line-height: 61px;
 }
