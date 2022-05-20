@@ -48,13 +48,23 @@ body {
     nav ul {
         width: 50%;
     }
+}
 
+@media screen and (max-width: 992px) {
     .header {
         margin: 0 auto;
         width: 75%;
     }
-}
 
+    .ourprojects {
+        grid-template-columns: auto;
+    }
+
+    .profiles {
+        grid-template-columns: auto;
+    }
+}
+    
 /* Ukuran Mobile */
 @media screen and (max-width: 600px) {
 
