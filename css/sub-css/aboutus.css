@@ -23,7 +23,7 @@
 }
 
 .profile {
-    background-color: #3e3e3e;
+    background-color: var(--profile);
     padding: 40px;
     text-align: center;
     border-radius: 10px;
